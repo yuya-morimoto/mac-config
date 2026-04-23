@@ -1,0 +1,15 @@
+font-size = 10.5
+
+background-opacity = 0.9
+
+working-directory = "~/Workspaces"
+
+# quick terminal
+quick-terminal-position = "bottom"
+keybind = "global:cmd+shift+space=toggle_quick_terminal"
+
+# key bind
+keybind = ctrl+super+h=goto_split:left
+keybind = shift+super+j=goto_split:bottom
+keybind = shift+super+k=goto_split:top
+keybind = shift+super+l=goto_split:right

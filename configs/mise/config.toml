@@ -1,0 +1,21 @@
+[tools]
+go = "1.24"
+node = "24"
+python = "3.13"
+java = "temurin-21"
+gradle = "8"
+usage = "latest"
+gcloud = "latest"
+awscli = "latest"
+
+[settings]
+experimental = true
+idiomatic_version_file_enable_tools = ["node"]
+
+[tasks.sim-ios]
+description = "iOSシミュレータの起動"
+run = "open -a Simulator"
+
+[tasks.container-setup]
+description = "Colima VMの起動"
+run = "brew services start colima"

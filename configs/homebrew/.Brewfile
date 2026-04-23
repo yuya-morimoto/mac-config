@@ -1,0 +1,6 @@
+brew "git"
+brew "lazygit"
+brew "mise"
+brew "neovim"
+brew "colima"
+brew "docker"
