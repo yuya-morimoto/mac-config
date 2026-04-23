@@ -2,41 +2,6 @@
 
 Macでの開発に利用するツールとセットアップ手順をまとめたリポジトリ。
 
-## 利用ツール
-
-### 📦 パッケージ管理
-
-| ツール名 | 説明 |
-| -------- | ---- |
-| Homebrew | パッケージマネージャ |
-
-### 🌐 ブラウザ
-
-| ツール名 | 説明 |
-| -------- | ---- |
-| Chrome | ブラウザ |
-| Brave | プライバシー重視ブラウザ |
-
-### 🛠️ 開発
-
-| ツール名 | 説明 |
-| -------- | ---- |
-| Xcode | iOS/macOSアプリ開発IDE |
-| Android Studio | Androidアプリ開発IDE |
-| Zed | コードエディタ |
-| Ghostty | ターミナル |
-| DBeaver | DBクライアント |
-| Cyberduck | FTPクライアント |
-
-### 🚀 生産性
-
-| ツール名 | 説明 |
-| -------- | ---- |
-| Slack | チームコミュニケーション |
-| Obsidian | ノート・ナレッジ管理 |
-| 1Password | パスワードマネージャ |
-| AquaVoice | 音声入力ツール |
-
 ## セットアップ
  
 ### 1. Mac設定
@@ -117,3 +82,40 @@ git config --global user.email 'ym20250421@gmail.com'
 ```
 
 ### 4. 各種ツールインストール
+
+[利用ツール](#利用ツール)を見て必要なツールをインストールしていく
+
+## 利用ツール
+
+### 📦 パッケージ管理
+
+| ツール名 | 説明 | セットアップ |
+| -------- | ---- | --------------- |
+| Homebrew | パッケージマネージャ | CLI |
+
+### 🌐 ブラウザ
+
+| ツール名 | 説明 | セットアップ |
+| -------- | ---- | --------------- |
+| Chrome | ブラウザ | [ダウンロード](https://www.google.com/chrome/) |
+| Brave | プライバシー重視ブラウザ | [ダウンロード](https://brave.com/ja/download/) |
+
+### 🛠️ 開発
+
+| ツール名 | 説明 | セットアップ |
+| -------- | ---- | --------------- |
+| Xcode | iOS/macOSアプリ開発IDE | [ダウンロード](https://developer.apple.com/download/all/?q=xcode) |
+| Android Studio | Androidアプリ開発IDE | [ダウンロード](https://developer.android.com/studio?hl=ja) |
+| Zed | コードエディタ | [ダウンロード](https://zed.dev/) |
+| Ghostty | ターミナル | [ダウンロード](https://ghostty.org/) |
+| DBeaver | DBクライアント | [ダウンロード](https://dbeaver.io/download/) |
+| Cyberduck | FTPクライアント | [ダウンロード](https://cyberduck.io/download/) |
+
+### 🚀 生産性
+
+| ツール名 | 説明 | セットアップ |
+| -------- | ---- | --------------- |
+| Slack | チームコミュニケーション | [ダウンロード](https://slack.com/intl/ja-jp/downloads/mac) |
+| Obsidian | ノート・ナレッジ管理 | [ダウンロード](https://obsidian.md/) |
+| 1Password | パスワードマネージャ | [ダウンロード](https://1password.com/jp/downloads/mac) |
+| AquaVoice | 音声入力ツール | [ダウンロード](https://aquavoice.com/download) |
