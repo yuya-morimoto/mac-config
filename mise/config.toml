@@ -11,6 +11,7 @@ awscli = "latest"
 [settings]
 experimental = true
 idiomatic_version_file_enable_tools = ["node"]
+trusted_config_paths = ["~/Workspaces"]
 
 [tasks.sim-ios]
 description = "iOSシミュレータの起動"
