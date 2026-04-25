@@ -78,7 +78,7 @@ brew bundle --global
 
 ```bash
 git config --global user.name 'yuya-morimoto'
-git config --global user.email 'ym20250421@gmail.com'
+git config --global user.email 'your@email.com'
 ```
 
 ### 4. Neovim設定
