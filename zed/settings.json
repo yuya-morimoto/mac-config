@@ -1,8 +1,26 @@
 {
+  "project_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "formatter": "none",
   "vim_mode": false,
   "icon_theme": "Zed (Default)",
   "base_keymap": "VSCode",
-  "ui_font_size": 11.0,
+  "ui_font_size": 12.0,
   "buffer_font_size": 10.0,
   "theme": {
     "mode": "dark",
@@ -14,4 +32,5 @@
     "background": "#000000CC",
     "background.appearance": "transparent",
   },
+  "file_scan_exclusions": ["**/.DS_Store"],
 }
