@@ -14,13 +14,7 @@ return {
 		menu = { auto_show = true },
 		completion = { documentation = { auto_show = true } },
 		sources = {
-			default = { "lsp", "path", "snippets", "buffer", "claudecode" },
-			providers = {
-				claudecode = {
-					name = "claudecode",
-					module = "claudecode.source.blink",
-				},
-			},
+			default = { "lsp", "path", "snippets", "buffer" },
 		},
 		fuzzy = { implementation = "prefer_rust_with_warning" },
 	},

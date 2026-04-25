@@ -32,3 +32,4 @@ brew install nvim lazygit ripgrep
 | [fidget.nvim](https://github.com/j-hui/fidget.nvim) | LSP 進捗を右下に表示 |
 | [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) | フローティングターミナル |
 | [claudecode.nvim](https://github.com/coder/claudecode.nvim) | Claude Code との統合 |
+| [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) | アクティブウィンドウの枠線をカラー表示 |
