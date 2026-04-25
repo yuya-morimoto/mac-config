@@ -88,7 +88,7 @@ git config --global user.email 'your@email.com'
 [ -d ~/.config/nvim ] && mv ~/.config/nvim ~/.config/nvim.bak.$(date +%Y%m%d%H%M%S)
 
 # 設定を移動
-cp -r ./nvim ~/.config/nvim
+rm -rf ~/.config/nvim && cp -r ./nvim ~/.config/nvim
 
 # Neovimを起動するとlazy.nvimがプラグインを自動インストール
 nvim

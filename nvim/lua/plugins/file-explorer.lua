@@ -23,6 +23,7 @@ return {
 				["<C-h>"] = { "actions.select", opts = { horizontal = true } },
 				["<C-t>"] = false, -- タブで開くのを無効化
 				["q"] = "actions.close",
+				["<leader>cd"] = "actions.cd",
 			},
 		},
 	},

@@ -158,6 +158,9 @@ vim.keymap.set(
 	{ noremap = true, silent = true, desc = "Markdownレンダリング切替" }
 )
 
+-- ターミナル (toggleterm)
+vim.keymap.set("t", "<ESC>", [[<C-\><C-n>]], { noremap = true, silent = true, desc = "ターミナルのノーマルモード" })
+
 -- インサートモードを抜ける (macOS)
 vim.keymap.set("i", "<D-S-j>", "<ESC>", { noremap = true, silent = true, desc = "ノーマルモードに戻る" })
 
