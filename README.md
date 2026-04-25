@@ -81,7 +81,42 @@ git config --global user.name 'yuya-morimoto'
 git config --global user.email 'ym20250421@gmail.com'
 ```
 
-### 4. 各種ツールインストール
+### 4. Neovim設定
+
+```bash
+# すでに設定が存在する場合はバックアップ（タイムスタンプ付き）
+[ -d ~/.config/nvim ] && mv ~/.config/nvim ~/.config/nvim.bak.$(date +%Y%m%d%H%M%S)
+
+# 設定を移動
+cp -r ./nvim ~/.config/nvim
+
+# Neovimを起動するとlazy.nvimがプラグインを自動インストール
+nvim
+```
+
+### 5. Zed設定
+
+```bash
+# すでに設定が存在する場合はバックアップ（タイムスタンプ付き）
+[ -f ~/.config/zed/settings.json ] && mv ~/.config/zed/settings.json ~/.config/zed/settings.json.bak.$(date +%Y%m%d%H%M%S)
+
+# 設定を配置
+mkdir -p ~/.config/zed
+cp ./zed/settings.json ~/.config/zed/settings.json
+```
+
+### 6. Ghostty設定
+
+```bash
+# すでに設定が存在する場合はバックアップ（タイムスタンプ付き）
+[ -f ~/.config/ghostty/config ] && mv ~/.config/ghostty/config ~/.config/ghostty/config.bak.$(date +%Y%m%d%H%M%S)
+
+# 設定を配置
+mkdir -p ~/.config/ghostty
+cp ./ghostty/config ~/.config/ghostty/config
+```
+
+### 7. 各種ツールインストール
 
 [利用ツール](#利用ツール)を見て必要なツールをインストールしていく
 
