@@ -5,5 +5,8 @@ return {
 	event = "VeryLazy",
 	opts = {
 		delay = 500, -- 表示までの遅延（ミリ秒）
+		spec = {
+			{ "<leader>a", group = "AI" },
+		},
 	},
 }
