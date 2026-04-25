@@ -1,0 +1,12 @@
+# OS
+.DS_Store
+
+# Vim スワップ・バックアップファイル
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# spell ファイル（ローカル生成）
+spell/*.spl
+spell/*.sug

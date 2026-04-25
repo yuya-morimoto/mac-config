@@ -1,0 +1,11 @@
+[tools]
+stylua = "latest"
+
+[tasks.fmt]
+description = "lua ファイルをフォーマット"
+run = "stylua lua/"
+
+[tasks.update]
+description = "プラグインを更新"
+run = "nvim --headless '+Lazy! sync' +qa"
+
