@@ -194,6 +194,14 @@
 | `<leader>tt` | ターミナルをフロートで開く / 閉じる |
 | `<ESC>` (ターミナル内) | ターミナルのノーマルモードへ |
 
+## AI / Claude (claudecode.nvim)
+
+| キー | 説明 |
+|------|------|
+| `<leader>at` | Claude Code パネルをトグル |
+| `<leader>af` | 現在のファイルを Claude のコンテキストに追加 |
+| `<leader>as` | 選択範囲を Claude に送信 (visual) |
+
 ## その他
 
 | キー | 説明 |

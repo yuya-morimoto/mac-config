@@ -30,3 +30,5 @@ brew install nvim lazygit ripgrep
 | [vim-translator](https://github.com/voldikss/vim-translator) | 選択テキストを日本語に翻訳 |
 | [blamer.nvim](https://github.com/z4p5a9/blamer.nvim) | Git blame をインライン表示 |
 | [fidget.nvim](https://github.com/j-hui/fidget.nvim) | LSP 進捗を右下に表示 |
+| [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) | フローティングターミナル |
+| [claudecode.nvim](https://github.com/coder/claudecode.nvim) | Claude Code との統合 |
