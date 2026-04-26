@@ -21,6 +21,8 @@ return {
 					"javadoc",
 					"kotlin",
 					"rust",
+					"terraform",
+					"hcl",
 				},
 				auto_install = true,
 				highlight = {

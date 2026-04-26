@@ -11,6 +11,8 @@ return {
 			"jdtls", -- Java
 			"pyright", -- Python
 			"rust_analyzer", -- Rust
+			"terraformls", -- Terraform
+			"ansiblels", -- Ansible
 		},
 	},
 	dependencies = {

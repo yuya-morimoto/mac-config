@@ -46,6 +46,9 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 })
 vim.api.nvim_set_hl(0, "Visual", { bg = "#4a2a7a" })
 
+-- 分割ウィンドウ上部にファイル名を表示
+vim.opt.winbar = "%=%t%m"
+
 -- 行番号を表示
 vim.opt.number = true
 
