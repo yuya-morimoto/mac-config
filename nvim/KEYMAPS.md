@@ -202,6 +202,14 @@
 | `<leader>af` | 現在のファイルを Claude のコンテキストに追加 |
 | `<leader>as` | 選択範囲を Claude に送信 (visual) |
 
+## Copilot (CopilotChat.nvim)
+
+| キー | 説明 |
+|------|------|
+| `<leader>pt` | Copilot Chat をトグル |
+| `<leader>pc` | 選択範囲を Copilot Chat に送信 (visual) |
+| `<leader>pf` | 現在ファイルをコンテキストに追加して開く |
+
 ## その他
 
 | キー | 説明 |

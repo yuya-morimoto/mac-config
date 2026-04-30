@@ -32,4 +32,7 @@ brew install nvim lazygit ripgrep
 | [fidget.nvim](https://github.com/j-hui/fidget.nvim) | LSP 進捗を右下に表示 |
 | [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) | フローティングターミナル |
 | [claudecode.nvim](https://github.com/coder/claudecode.nvim) | Claude Code との統合 |
+| [copilot.lua](https://github.com/zbirenbaum/copilot.lua) | GitHub Copilot 統合 |
+| [blink-cmp-copilot](https://github.com/giuxtaposition/blink-cmp-copilot) | blink.cmp への Copilot ソース追加 |
+| [CopilotChat.nvim](https://github.com/CopilotC-Nvim/CopilotChat.nvim) | Copilot とのチャット |
 | [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) | アクティブウィンドウの枠線をカラー表示 |
