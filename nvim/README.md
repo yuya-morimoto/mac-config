@@ -36,3 +36,5 @@ brew install nvim lazygit ripgrep
 | [blink-cmp-copilot](https://github.com/giuxtaposition/blink-cmp-copilot) | blink.cmp への Copilot ソース追加 |
 | [CopilotChat.nvim](https://github.com/CopilotC-Nvim/CopilotChat.nvim) | Copilot とのチャット |
 | [colorful-winsep.nvim](https://github.com/nvim-zh/colorful-winsep.nvim) | アクティブウィンドウの枠線をカラー表示 |
+| [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) | Gitの差分をgutterに表示・hunk操作 |
+| [diffview.nvim](https://github.com/sindrets/diffview.nvim) | ファイル差分・コミット履歴のパネル表示 |

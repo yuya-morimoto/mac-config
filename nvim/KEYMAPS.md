@@ -175,6 +175,27 @@
 |------|------|
 | `<leader>gg` | LazyGit を開く |
 
+## Git 差分 (diffview.nvim)
+
+| キー | 説明 |
+|------|------|
+| `<leader>gd` | ワーキングツリーの差分パネルを開く |
+| `<leader>gf` | 現在ファイルのコミット履歴を開く |
+| `<leader>gF` | リポジトリ全体のコミット履歴を開く |
+| `<leader>gx` | diffview を閉じる |
+
+## Git hunk 操作 (gitsigns.nvim)
+
+| キー | 説明 |
+|------|------|
+| `]c` | 次の変更hunkへ移動 |
+| `[c` | 前の変更hunkへ移動 |
+| `<leader>gp` | hunk の差分をプレビュー |
+| `<leader>gs` | hunk をステージ (normal / visual) |
+| `<leader>gr` | hunk をリセット (normal / visual) |
+| `<leader>gu` | ステージを取り消す |
+| `<leader>gb` | カーソル行の blame をポップアップ表示 |
+
 ## Markdown
 
 | キー | 説明 |
