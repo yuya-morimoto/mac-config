@@ -56,7 +56,7 @@ killall Finder
 
 ```bash
 # 入力度最速
-defaults write -g InitialKeyRepeat -int 11 && defaults write -g KeyRepeat -int 1
+defaults write -g InitialKeyRepeat -int 12 && defaults write -g KeyRepeat -int 1
 # CapsLockによる入力ソース切替
 defaults write -g AppleLanguagesSwitchKeyAction -int 1
 ```
