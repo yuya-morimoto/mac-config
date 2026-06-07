@@ -14,6 +14,18 @@ return {
 			"terraformls", -- Terraform
 			"ansiblels", -- Ansible
 		},
+		handlers = {
+			-- go.work が新しいGoバージョンを要求する場合でも gopls が動作するよう GOTOOLCHAIN を設定
+			["gopls"] = function()
+				require("lspconfig").gopls.setup({
+					settings = {
+						gopls = {
+							env = { GOTOOLCHAIN = "auto" },
+						},
+					},
+				})
+			end,
+		},
 	},
 	dependencies = {
 		{ "mason-org/mason.nvim", opts = {} },
